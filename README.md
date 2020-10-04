@@ -6,13 +6,15 @@ This utility can perform searches of all supported package repositories. It can 
 
 ## Design & Implementation
 
+MPM is to be created using the [Nim](https://nim-lang.org/) programming language. Nim's cross-compiler, C/C++/Python interop, comprehensible python-like syntax, and speed-fast small native binaries make it perfect for MPM's use-case. Let's set some priorities...
+
 ### Priority 1
 
 Existing package conversion works are to either be ported to, merged into, or added to the dependency graph of MPM. Such works include [debtap](https://github.com/helixarch/debtap) and [Alien](https://sourceforge.net/projects/alien-pkg-convert/).
 
 ### Priority 2
 
-Packages are to be installable using mpm, if only (Where appropriate) by spawning or piping to the system's package installer.
+Packages are to be installable using MPM, if only (Where appropriate) by spawning or piping to the system's package installer.
 
 ### Priority 3
 
